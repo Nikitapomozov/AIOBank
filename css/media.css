@@ -1,0 +1,82 @@
+@media (max-width: 320px) {
+
+    .container {
+        padding: 0 18px;
+    }
+
+    .offers__cards-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .offers__card {
+        width: 287px;
+    }
+
+    .offers__card-link {
+        justify-content: center;
+        background-color: #E8ECFF;
+        color: #476BF0;
+        border: none;
+        height: 52px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 21px;
+    }
+
+    .offers__card-link img {
+        display: none;
+    }
+
+    .offers__card-percentages {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 21px;
+        color: #000000;
+    }
+
+    .offers__card-percentages span {
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 38px;
+        color: #000000;
+    }
+
+    .offers__card-cashback {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 19px;
+        color: #727272;
+    }
+
+    .all-offers__btn {
+        display: none;
+    }
+
+    .title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 23px;
+        text-align: center;
+        color: #252A34;
+    }
+
+    .best-bank__body {
+        padding-top: 36px;
+    }
+
+    .best-bank__btns {
+        display: flex;
+    }
+
+    .best-bank__btn {
+        width: 139px;
+        height: 37px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 11px;
+        color: #476BF0;
+        border-radius: 5px;
+    }
+
+}

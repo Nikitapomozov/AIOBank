@@ -1,0 +1,70 @@
+.credit-card__title {
+    margin-top: 75px;
+}
+
+.credit-card__sub-title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 39px;
+    color: #252A34;
+    margin-top: 15px;
+}
+
+.offers__title {
+    margin-top: 75px;
+}
+
+.offers__sub-title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 39px;
+    color: #252A34;
+    margin-top: 15px;
+    max-width: 777px;
+    margin: 15px auto 0;
+}
+
+.credit-cards__card {
+    text-align: left;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.09), 0px 0px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    margin-top: 49px;
+    padding: 27px 19px;
+}
+
+.credit-cards__card-title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 25px;
+    color: #252A34;
+}
+
+.credit-cards__card-dignities {
+    border-left: 1px solid #476BF0;
+    margin-left: 15px;
+    height: 159px;
+}
+
+.credit-cards__card-dignity:not(:first-child) {
+    margin-top: 26px;
+}
+
+.credit-cards__card-dignity {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-left: 16px;
+}
+
+.credit-cards__card-dignity p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 17px;
+    color: #476BF0;
+}
+
+.credit-cards__bottom {
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+}
