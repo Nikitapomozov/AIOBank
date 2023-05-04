@@ -216,15 +216,15 @@ body {
 }
 
 .all-offers__btn {
-    width: 291px;
-    height: 51px;
+    display: inline-block;
+    padding: 13px 26px;
     border: 1px solid #476BF0;
     border-radius: 15px;
     font-weight: 400;
     font-size: 26px;
     line-height: 25px;
     background-color: transparent;
-    margin-top: 68px;
+    margin: 68px auto 0;
     color: #476BF0;
 }
 
@@ -615,4 +615,24 @@ th {
 .table__name-column {
     display: flex;
     justify-content: space-between;
+}
+
+.best-bank__btn {
+    display: inline-block;
+    padding: 13px 38px;
+    border: 1px solid #476BF0;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 25px;
+    background-color: transparent;
+    margin: 40px auto 0;
+    color: #476BF0;
+    transition: 0.1s ease;
+}
+
+
+.best-bank__btn:hover {
+    color: white;
+    background:#476BF0;
 }

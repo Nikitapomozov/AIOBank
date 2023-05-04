@@ -1,70 +1,140 @@
-.credit-card__title {
-    margin-top: 75px;
-}
+    .credit-card__title {
+        margin-top: 75px;
+    }
 
-.credit-card__sub-title {
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 39px;
-    color: #252A34;
-    margin-top: 15px;
-}
+    .credit-card__sub-title {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 39px;
+        color: #252A34;
+        margin-top: 15px;
+    }
 
-.offers__title {
-    margin-top: 75px;
-}
+    .offers__title {
+        margin-top: 75px;
+    }
 
-.offers__sub-title {
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 39px;
-    color: #252A34;
-    margin-top: 15px;
-    max-width: 777px;
-    margin: 15px auto 0;
-}
+    .offers__sub-title {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 39px;
+        color: #252A34;
+        margin-top: 15px;
+        max-width: 777px;
+        margin: 15px auto 0;
+    }
 
-.credit-cards__card {
-    text-align: left;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.09), 0px 0px 16px rgba(0, 0, 0, 0.06);
-    border-radius: 15px;
-    margin-top: 49px;
-    padding: 27px 19px;
-}
+    .credit-cards__card {
+        text-align: left;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.09), 0px 0px 16px rgba(0, 0, 0, 0.06);
+        border-radius: 15px;
+        margin-top: 49px;
+        padding: 27px 0 27px 19px;
+    }
 
-.credit-cards__card-title {
-    font-weight: 600;
-    font-size: 26px;
-    line-height: 25px;
-    color: #252A34;
-}
+    .credit-cards__card-title {
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 25px;
+        color: #252A34;
+    }
 
-.credit-cards__card-dignities {
-    border-left: 1px solid #476BF0;
-    margin-left: 15px;
-    height: 159px;
-}
+    .credit-cards__card-dignities {
+        border-left: 1px solid #476BF0;
+        margin-left: 15px;
+        height: 159px;
+        padding-left: 16px;
+    }
 
-.credit-cards__card-dignity:not(:first-child) {
-    margin-top: 26px;
-}
+    .credit-cards__card-dignity:not(:first-child) {
+        margin-top: 26px;
+    }
 
-.credit-cards__card-dignity {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    padding-left: 16px;
-}
+    .credit-cards__card-dignity {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
 
-.credit-cards__card-dignity p {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 17px;
-    color: #476BF0;
-}
+    .credit-cards__card-dignity p {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 17px;
+        color: #476BF0;
+    }
 
-.credit-cards__bottom {
-    margin-top: 27px;
-    display: flex;
-    align-items: center;
-}
+    .credit-cards__bottom {
+        margin-top: 27px;
+        display: flex;
+        align-items: center;
+    }
+
+    .credit-cards__card-info {
+        padding-left: 19px;
+    }
+
+    .credit-cards__card-btns {
+        margin-top: 19px;
+    }
+
+    .credit-cards__card-btn {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 17px;
+        background: transparent;
+        border: 1px solid #476BF0;
+        border-radius: 15px;
+        padding: 15px 27px;
+        color: #476BF0;
+        transition: 0.1s ease;
+    }
+
+    .credit-cards__card-btn:hover {
+        background: #476BF0;
+        color: white;
+    }
+
+    .credit-cards__card-btn:not(:last-child) {
+        margin-right: 25px;
+    }
+
+    .credit-cards__card-footer {
+        display: flex;
+        gap: 18px;
+        margin-top: 23px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 13px;
+        color: #818181;
+    }
+
+    .credit-cards__card-columns {
+        display: flex;
+    }
+
+    .credit-cards__card-column-text {
+        margin-right: 14px;
+    }
+
+    .credit-cards__card-column-nums {
+        margin-right: 14px;
+    }
+
+    .credit-cards__card-column-text p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 13px;
+        color: #818181;
+        margin-top: 14px;
+        
+    }
+
+    .credit-cards__card-column-nums p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 13px;
+        color: #252A34;
+        margin-top: 14px;
+        
+    }
