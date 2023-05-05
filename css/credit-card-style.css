@@ -28,8 +28,15 @@
         text-align: left;
         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.09), 0px 0px 16px rgba(0, 0, 0, 0.06);
         border-radius: 15px;
-        margin-top: 49px;
         padding: 27px 0 27px 19px;
+    }
+
+    .credit-cards-card:not(:first-child) {
+        margin-top: 33px;
+    }
+
+    .credit-cards__cards {
+        margin-top: 49px;
     }
 
     .credit-cards__card-title {
@@ -127,7 +134,7 @@
         line-height: 13px;
         color: #818181;
         margin-top: 14px;
-        
+
     }
 
     .credit-cards__card-column-nums p {
@@ -136,5 +143,5 @@
         line-height: 13px;
         color: #252A34;
         margin-top: 14px;
-        
+
     }
