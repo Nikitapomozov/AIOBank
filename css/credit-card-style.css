@@ -31,7 +31,7 @@
         padding: 27px 0 27px 19px;
     }
 
-    .credit-cards-card:not(:first-child) {
+    .credit-cards__card:not(:first-child) {
         margin-top: 33px;
     }
 
@@ -118,17 +118,10 @@
 
     .credit-cards__card-columns {
         display: flex;
+        gap: 14px;
     }
 
-    .credit-cards__card-column-text {
-        margin-right: 14px;
-    }
-
-    .credit-cards__card-column-nums {
-        margin-right: 14px;
-    }
-
-    .credit-cards__card-column-text p {
+    .credit-cards__column-text p {
         font-weight: 400;
         font-size: 14px;
         line-height: 13px;
@@ -137,7 +130,7 @@
 
     }
 
-    .credit-cards__card-column-nums p {
+    .credit-cards__column-nums p {
         font-weight: 500;
         font-size: 14px;
         line-height: 13px;
