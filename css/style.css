@@ -159,11 +159,6 @@ body {
     background: #E1E6FF;
 }
 
-.buttons__item:active {
-    color: white;
-    background: #476BF0;
-}
-
 .offers__cards-row {
     display: flex;
     justify-content: center;
