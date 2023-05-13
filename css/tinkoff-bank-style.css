@@ -458,6 +458,10 @@
     padding: 22px 37px;
 }
 
+.reviews__card:not(:first-child) {
+    margin-top: 8pxЁ;
+}
+
 .reviews__card-name {
     font-weight: 600;
     font-size: 30px;
