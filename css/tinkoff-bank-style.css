@@ -114,9 +114,6 @@
     padding-top: 21px;
 }
 
-.about-card {
-    display: none;
-}
 
 .about-card__body p {
     font-weight: 400;
@@ -378,10 +375,6 @@
     background: #305BFA;
 }
 
-.rate {
-    display: none;
-}
-
 .block-active {
     display: block;
 }
@@ -501,4 +494,78 @@
     line-height: 56px;
     color: #252A34;
     margin-top: 75px;
+}
+
+.reviews__card:not(:first-child) {
+    margin-top: 8px;
+}
+
+.specific-card__btns .active {
+    background: #476BF0;
+    color: white;
+}
+
+#tab__1 {
+    display: none;
+}
+
+#tab__2 {
+    display: none;
+}
+
+#tab__3 {
+    display: none;
+}
+
+#tab__4 {
+    display: none;
+}
+
+#tab__1.active {
+    display: block;
+}
+
+#tab__2.active {
+    display: block;
+}
+
+#tab__3.active {
+    display: block;
+}
+
+#tab__4.active {
+    display: block;
+}
+
+#reviews__card-btn.active  {
+    background: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 23px;
+    color: #476BF0;
+    display: inline;
+}
+
+#more {
+    display: none;
+}
+
+#more {
+    display: none;
+}
+
+#dots {
+    display: none;
+}
+
+#dots.active {
+    display: inline;
+}
+
+#more.active {
+    display: inline;
+}
+
+#reviews__card-btn {
+    display: none;
 }
