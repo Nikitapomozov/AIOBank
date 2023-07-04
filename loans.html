@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIOBank</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/loans-style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container">
+                <nav class="header__nav">
+                    <a class="header__logo" href="./index.html">
+                        AIO <span>Сервис подбора <br> банковсих услуг</span>
+                        <div class="vert-line"></div>
+                    </a>
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="./credit-card.html" class="header__link">кредитные карты</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="./credits.html" class="header__link">кредиты</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="./loans.html" class="header__link">займы</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#!" class="header__link">рко</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="page">
+
+            <section class="loans">
+                <div class="container loans__container">
+                    <h2 class="loans__title title">Займы</h2>
+                    <p class="loans__sub-title">Мы поможем выбрать самый выгодный займ</p>
+                    <div class="selection__dropdowns dropdowns">
+                        <ul class="dropdowns-list">
+                            <li class="dropdown-item">
+                                <button class="dropdown__control dropdown__control-border">
+                                    <div class="dropdown__control-content">
+                                        <p class="dropdown__text">Сумма</p>
+                                        <h3 class="dropdown__selected">Выбрать</h3>
+                                    </div>
+                                    <i class="dropdown__icon">
+                                        <img src="/img/PinClipart 2.svg" alt="">
+                                    </i>
+                                </button>
+                                <ul class="dropdown__menu-list">
+                                    <li class="dropdown__menu-item">1 000 000 ₽</li>
+                                    <li class="dropdown__menu-item">1 500 000 ₽</li>
+                                    <li class="dropdown__menu-item">2 000 000 ₽</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-item">
+                                <button class="dropdown__control">
+                                    <div class="dropdown__control-content">
+                                        <p class="dropdown__text">Срок</p>
+                                        <h3 class="dropdown__selected">Выбрать</h3>
+                                    </div>
+                                    <i class="dropdown__icon">
+                                        <img src="/img/PinClipart 2.svg" alt="">
+                                    </i>
+                                </button>
+                                <ul class="dropdown__menu-list">
+                                    <li class="dropdown__menu-item">1 год</li>
+                                    <li class="dropdown__menu-item">2 года</li>
+                                    <li class="dropdown__menu-item">3 года</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-item">
+                                <button class="dropdown__control">
+                                    <div class="dropdown__control-content">
+                                        <p class="dropdown__text">Доп. условие</p>
+                                        <h3 class="dropdown__selected">Выбрать</h3>
+                                    </div>
+                                    <i class="dropdown__icon">
+                                        <img src="/img/PinClipart 2.svg" alt="">
+                                    </i>
+                                </button>
+                                <ul class="dropdown__menu-list">
+                                    <li class="dropdown__menu-item"></li>
+                                </ul>
+                            </li>
+                            <button class="dropdown__btn">Подобрать карту</button>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="offers">
+                <div class="container">
+                    <h2 class="offers__title title">Мы подобрали 78 предложений</h2>
+                    <p class="offers__sub-title">В среднем сумма займа составляет 30 000 ₽,
+                        а срок займа до 30 дней
+                    </p>
+                    <div class="offers__btns buttons__list">
+                        <a href="#!" class="offers__btn buttons__item">Рейтинг</a>
+                        <a href="#!" class="offers__btn buttons__item">Лимит</a>
+                        <a href="#!" class="offers__btn buttons__item">Ставка</a>
+                        <a href="#!" class="offers__btn buttons__item">Срок</a>
+                    </div>
+                    <div class="offers__cards">
+                        <div class="offers__card">
+                            <h2 class="offers__card-title">Займ в Екапуста (0% первый займ)</h2>
+                            <div class="offers__bottom">
+                                <img src="./img/ekapusta.svg" alt="">
+                                <div class="offers__card-info">
+                                    <div class="offers__card-stars">
+                                        <img src="./img/stars.svg" alt="">
+                                    </div>
+                                    <div class="offers__card-columns">
+                                        <div class="offers__column-text">
+                                            <p>Сумма займа</p>
+                                            <p>Срок займа</p>
+                                            <p>Ставка</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>30 000 ₽</p>
+                                            <p>7-21 дней</p>
+                                            <p>от 0%</p>
+                                        </div>
+                                        <div class="offers__column-text">
+                                            <p>Кред. история</p>
+                                            <p>Возраст</p>
+                                            <p>Решение</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>Любая</p>
+                                            <p>18-70 лет</p>
+                                            <p>1 минута</p>
+                                        </div>
+                                    </div>
+                                    <div class="offers__card-btns">
+                                        <a href="#!" class="offers__card-btn">Оформить</a>
+                                        <a href="./tinkoff-bank.html" class="offers__card-btn">Подробнее</a>
+                                    </div>
+                                    <div class="offers__card-footer">
+                                        <p>8 800 550-55-99</p>
+                                        <p>ekapusta.com</p>
+                                        <p>Лицензия: №2673</p>
+                                    </div>
+                                </div>
+                                <div class="offers__card-dignities">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/like.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Мы рекомендуем</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/dollar.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Большая сумма</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/future.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Быстрое решение</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offers__card">
+                            <h2 class="offers__card-title">Займ в Вебзайм (0% первый займ)</h2>
+                            <div class="offers__bottom">
+                                <img src="./img/webzaim.svg" alt="">
+                                <div class="offers__card-info">
+                                    <div class="offers__card-stars">
+                                        <img src="./img/stars.svg" alt="">
+                                    </div>
+                                    <div class="offers__card-columns">
+                                        <div class="offers__column-text">
+                                            <p>Макс. сумма</p>
+                                            <p>Срок займа</p>
+                                            <p>Срок займа</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>30 000 ₽</p>
+                                            <p>до 30 дней</p>
+                                            <p>От 0%</p>
+                                        </div>
+                                        <div class="offers__column-text">
+                                            <p>Кред. история</p>
+                                            <p>Возраст</p>
+                                            <p>Решение</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>Любая</p>
+                                            <p>От 18 лет</p>
+                                            <p>5 минут</p>
+                                        </div>
+                                    </div>
+                                    <div class="offers__card-btns">
+                                        <a href="#!" class="offers__card-btn">Оформить</a>
+                                        <a href="#!" class="offers__card-btn">Подробнее</a>
+                                    </div>
+                                    <div class="offers__card-footer">
+                                        <p>7 800 700-87-06</p>
+                                        <p>web-zaim.ru</p>
+                                        <p>Лицензия: №1326</p>
+                                    </div>
+                                </div>
+                                <div class="offers__card-dignities">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/user.svg" alt="" class="credit-cards__card-dignity-img">
+                                        <p>Лучшие отзывы</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/percentage.svg" alt="" class="credit-cards__card-dignity-img">
+                                        <p>Низкая ставка </p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/future.svg" alt="" class="credit-cards__card-dignity-img">
+                                        <p>Быстрое решение</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offers__card">
+                            <h2 class="offers__card-title">Займ в Cash Point (Кэшпойнт)</h2>
+                            <div class="offers__bottom">
+                                <img src="./img/cashpoint.svg" alt="">
+                                <div class="offers__card-info">
+                                    <div class="offers__card-stars">
+                                        <img src="./img/stars.svg" alt="">
+                                    </div>
+                                    <div class="offers__card-columns">
+                                        <div class="offers__column-text">
+                                            <p>Макс. сумма</p>
+                                            <p>Срок займа</p>
+                                            <p>Ставка</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>60 000 ₽</p>
+                                            <p>До 9 месяцев</p>
+                                            <p>0,5%</p>
+                                        </div>
+                                        <div class="offers__column-text">
+                                            <p>Кред. история</p>
+                                            <p>Возраст</p>
+                                            <p>Решение</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>Любая</p>
+                                            <p>21-69 лет</p>
+                                            <p>15 минут</p>
+                                        </div>
+                                    </div>
+                                    <div class="offers__card-btns">
+                                        <a href="#!" class="offers__card-btn">Оформить</a>
+                                        <a href="./cashpoitn.html" class="offers__card-btn">Подробнее</a>
+                                    </div>
+                                    <div class="offers__card-footer">
+                                        <p>8 800 505-29-38</p>
+                                        <p>cashpoint.ru</p>
+                                        <p>Лицензия: №1326</p>
+                                    </div>
+                                </div>
+                                <div class="offers__card-dignities">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/dollar.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Высокий лимит</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/percentage.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Низкая ставка</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/age-group.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Любой возраст</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offers__card">
+                            <h2 class="offers__card-title">Займ в OneClickMoney</h2>
+                            <div class="offers__bottom">
+                                <img src="./img/oneclick.svg" alt="">
+                                <div class="offers__card-info">
+                                    <div class="offers__card-stars">
+                                        <img src="./img/stars.svg" alt="">
+                                    </div>
+                                    <div class="offers__card-columns">
+                                        <div class="offers__column-text">
+                                            <p>Макс. сумма</p>
+                                            <p>Срок займа</p>
+                                            <p>Ставка</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>30 000 ₽</p>
+                                            <p>60 дней</p>
+                                            <p>1%</p>
+                                        </div>
+                                        <div class="offers__column-text">
+                                            <p>Кред. история</p>
+                                            <p>Возраст</p>
+                                            <p>Решение</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>Любая</p>
+                                            <p>От 18 лет</p>
+                                            <p>7 минут</p>
+                                        </div>
+                                    </div>
+                                    <div class="offers__card-btns">
+                                        <a href="#!" class="offers__card-btn">Оформить</a>
+                                        <a href="#!" class="offers__card-btn">Подробнее</a>
+                                    </div>
+                                    <div class="offers__card-footer">
+                                        <p>8 800 700-06-07</p>
+                                        <p>oneclickmoney.ru</p>
+                                        <p>Лицензия: №3349</p>
+                                    </div>
+                                </div>
+                                <div class="offers__card-dignities">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/like.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Мы рекомендуем</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/percentage.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Низкая ставка</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/dollar.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Бесплатная</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offers__card">
+                            <h2 class="offers__card-title">Займ в ДоброЗайм (0% первый займ)</h2>
+                            <div class="offers__bottom">
+                                <img src="./img/dobrozaim.svg" alt="">
+                                <div class="offers__card-info">
+                                    <div class="offers__card-stars">
+                                        <img src="./img/stars.svg" alt="">
+                                    </div>
+                                    <div class="offers__card-columns">
+                                        <div class="offers__column-text">
+                                            <p>Макс. сумма</p>
+                                            <p>Срок займа</p>
+                                            <p>Ставка</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>100 000 ₽</p>
+                                            <p>До 1 года</p>
+                                            <p>От 0%</p>
+                                        </div>
+                                        <div class="offers__column-text">
+                                            <p>Кред. история</p>
+                                            <p>Возраст</p>
+                                            <p>Решение</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>Любая</p>
+                                            <p>19-90 лет</p>
+                                            <p>5 минут</p>
+                                        </div>
+                                    </div>
+                                    <div class="offers__card-btns">
+                                        <a href="#!" class="offers__card-btn">Оформить</a>
+                                        <a href="#!" class="offers__card-btn">Подробнее</a>
+                                    </div>
+                                    <div class="offers__card-footer">
+                                        <p>8 800 770-77-39</p>
+                                        <p>dobrozaim.ru</p>
+                                        <p>Лицензия: №1000</p>
+                                    </div>
+                                </div>
+                                <div class="offers__card-dignities">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/user.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Лучшие отзывы</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/percentage.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Низкая ставка</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/dollar.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Бесплатная</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offers__card">
+                            <h2 class="offers__card-title">Займ в Екапуста (0% первый займ)</h2>
+                            <div class="offers__bottom">
+                                <img src="./img/ekapusta.svg" alt="">
+                                <div class="offers__card-info">
+                                    <div class="offers__card-stars">
+                                        <img src="./img/stars.svg" alt="">
+                                    </div>
+                                    <div class="offers__card-columns">
+                                        <div class="offers__column-text">
+                                            <p>Сумма займа</p>
+                                            <p>Срок займа</p>
+                                            <p>Ставка</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>30 000 ₽</p>
+                                            <p>7-21 дней</p>
+                                            <p>от 0%</p>
+                                        </div>
+                                        <div class="offers__column-text">
+                                            <p>Кред. история</p>
+                                            <p>Возраст</p>
+                                            <p>Решение</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>Любая</p>
+                                            <p>18-70 лет</p>
+                                            <p>1 минута</p>
+                                        </div>
+                                    </div>
+                                    <div class="offers__card-btns">
+                                        <a href="#!" class="offers__card-btn">Оформить</a>
+                                        <a href="./tinkoff-bank.html" class="offers__card-btn">Подробнее</a>
+                                    </div>
+                                    <div class="offers__card-footer">
+                                        <p>8 800 550-55-99</p>
+                                        <p>ekapusta.com</p>
+                                        <p>Лицензия: №2673</p>
+                                    </div>
+                                </div>
+                                <div class="offers__card-dignities">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/like.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Мы рекомендуем</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/dollar.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Большая сумма</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/future.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Быстрое решение</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offers__card">
+                            <h2 class="offers__card-title">Займ в Вебзайм (0% первый займ)</h2>
+                            <div class="offers__bottom">
+                                <img src="./img/webzaim.svg" alt="">
+                                <div class="offers__card-info">
+                                    <div class="offers__card-stars">
+                                        <img src="./img/stars.svg" alt="">
+                                    </div>
+                                    <div class="offers__card-columns">
+                                        <div class="offers__column-text">
+                                            <p>Макс. сумма</p>
+                                            <p>Срок займа</p>
+                                            <p>Срок займа</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>30 000 ₽</p>
+                                            <p>до 30 дней</p>
+                                            <p>От 0%</p>
+                                        </div>
+                                        <div class="offers__column-text">
+                                            <p>Кред. история</p>
+                                            <p>Возраст</p>
+                                            <p>Решение</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>Любая</p>
+                                            <p>От 18 лет</p>
+                                            <p>5 минут</p>
+                                        </div>
+                                    </div>
+                                    <div class="offers__card-btns">
+                                        <a href="#!" class="offers__card-btn">Оформить</a>
+                                        <a href="#!" class="offers__card-btn">Подробнее</a>
+                                    </div>
+                                    <div class="offers__card-footer">
+                                        <p>7 800 700-87-06</p>
+                                        <p>web-zaim.ru</p>
+                                        <p>Лицензия: №1326</p>
+                                    </div>
+                                </div>
+                                <div class="offers__card-dignities">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/user.svg" alt="" class="credit-cards__card-dignity-img">
+                                        <p>Лучшие отзывы</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/percentage.svg" alt="" class="credit-cards__card-dignity-img">
+                                        <p>Низкая ставка </p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/future.svg" alt="" class="credit-cards__card-dignity-img">
+                                        <p>Быстрое решение</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offers__card">
+                            <h2 class="offers__card-title">Займ в Cash Point (Кэшпойнт)</h2>
+                            <div class="offers__bottom">
+                                <img src="./img/cashpoint.svg" alt="">
+                                <div class="offers__card-info">
+                                    <div class="offers__card-stars">
+                                        <img src="./img/stars.svg" alt="">
+                                    </div>
+                                    <div class="offers__card-columns">
+                                        <div class="offers__column-text">
+                                            <p>Макс. сумма</p>
+                                            <p>Срок займа</p>
+                                            <p>Ставка</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>60 000 ₽</p>
+                                            <p>До 9 месяцев</p>
+                                            <p>0,5%</p>
+                                        </div>
+                                        <div class="offers__column-text">
+                                            <p>Кред. история</p>
+                                            <p>Возраст</p>
+                                            <p>Решение</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>Любая</p>
+                                            <p>21-69 лет</p>
+                                            <p>15 минут</p>
+                                        </div>
+                                    </div>
+                                    <div class="offers__card-btns">
+                                        <a href="#!" class="offers__card-btn">Оформить</a>
+                                        <a href="./cashpoitn.html" class="offers__card-btn">Подробнее</a>
+                                    </div>
+                                    <div class="offers__card-footer">
+                                        <p>8 800 505-29-38</p>
+                                        <p>cashpoint.ru</p>
+                                        <p>Лицензия: №1326</p>
+                                    </div>
+                                </div>
+                                <div class="offers__card-dignities">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/dollar.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Высокий лимит</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/percentage.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Низкая ставка</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/age-group.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Любой возраст</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offers__card">
+                            <h2 class="offers__card-title">Займ в OneClickMoney</h2>
+                            <div class="offers__bottom">
+                                <img src="./img/oneclick.svg" alt="">
+                                <div class="offers__card-info">
+                                    <div class="offers__card-stars">
+                                        <img src="./img/stars.svg" alt="">
+                                    </div>
+                                    <div class="offers__card-columns">
+                                        <div class="offers__column-text">
+                                            <p>Макс. сумма</p>
+                                            <p>Срок займа</p>
+                                            <p>Ставка</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>30 000 ₽</p>
+                                            <p>60 дней</p>
+                                            <p>1%</p>
+                                        </div>
+                                        <div class="offers__column-text">
+                                            <p>Кред. история</p>
+                                            <p>Возраст</p>
+                                            <p>Решение</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>Любая</p>
+                                            <p>От 18 лет</p>
+                                            <p>7 минут</p>
+                                        </div>
+                                    </div>
+                                    <div class="offers__card-btns">
+                                        <a href="#!" class="offers__card-btn">Оформить</a>
+                                        <a href="#!" class="offers__card-btn">Подробнее</a>
+                                    </div>
+                                    <div class="offers__card-footer">
+                                        <p>8 800 700-06-07</p>
+                                        <p>oneclickmoney.ru</p>
+                                        <p>Лицензия: №3349</p>
+                                    </div>
+                                </div>
+                                <div class="offers__card-dignities">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/like.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Мы рекомендуем</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/percentage.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Низкая ставка</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/dollar.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Бесплатная</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offers__card">
+                            <h2 class="offers__card-title">Займ в ДоброЗайм (0% первый займ)</h2>
+                            <div class="offers__bottom">
+                                <img src="./img/dobrozaim.svg" alt="">
+                                <div class="offers__card-info">
+                                    <div class="offers__card-stars">
+                                        <img src="./img/stars.svg" alt="">
+                                    </div>
+                                    <div class="offers__card-columns">
+                                        <div class="offers__column-text">
+                                            <p>Макс. сумма</p>
+                                            <p>Срок займа</p>
+                                            <p>Ставка</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>100 000 ₽</p>
+                                            <p>До 1 года</p>
+                                            <p>От 0%</p>
+                                        </div>
+                                        <div class="offers__column-text">
+                                            <p>Кред. история</p>
+                                            <p>Возраст</p>
+                                            <p>Решение</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>Любая</p>
+                                            <p>19-90 лет</p>
+                                            <p>5 минут</p>
+                                        </div>
+                                    </div>
+                                    <div class="offers__card-btns">
+                                        <a href="#!" class="offers__card-btn">Оформить</a>
+                                        <a href="#!" class="offers__card-btn">Подробнее</a>
+                                    </div>
+                                    <div class="offers__card-footer">
+                                        <p>8 800 770-77-39</p>
+                                        <p>dobrozaim.ru</p>
+                                        <p>Лицензия: №1000</p>
+                                    </div>
+                                </div>
+                                <div class="offers__card-dignities">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/user.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Лучшие отзывы</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/percentage.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Низкая ставка</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/dollar.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Бесплатная</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-center">
+                        <button class="show-more">Показать еще</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="info">
+                <div class="container">
+                    <div class="info__body">
+                        <h2 class="info__title title">Полезная информация</h2>
+                        <ul class="info__accordion accordion-list">
+                            <li class="accordion">
+                                <button class="accordion__control">
+                                    <span class="accordion__title">Зачем нужна кредитная карта?</span>
+                                    <i class="accordion__icon">
+                                        <img src="/img/PinClipart.svg" alt="">
+                                    </i>
+                                </button>
+                                <div class="accordion__content">
+                                    Если вам не хватает своих средств для покупки желанного товара или услуги, на помощь
+                                    придет кредитная карта в Москве.
+                                    Это отличный способ быстро получить нужную сумму.
+                                </div>
+                            </li>
+                            <li class="accordion">
+                                <button class="accordion__control">
+                                    <span class="accordion__title">Сколько забирает банк?</span>
+                                    <i class="accordion__icon">
+                                        <img src="/img/PinClipart.svg" alt="">
+                                    </i>
+                                </button>
+                                <div class="accordion__content">
+                                </div>
+                            </li>
+                            <li class="accordion">
+                                <button class="accordion__control">
+                                    <span class="accordion__title">Как выбрать кредитную карту?</span>
+                                    <i class="accordion__icon">
+                                        <img src="/img/PinClipart.svg" alt="">
+                                    </i>
+                                </button>
+                                <div class="accordion__content">
+                                </div>
+                            </li>
+                            <li class="accordion">
+                                <button class="accordion__control">
+                                    <span class="accordion__title">Все предложения актуальны?</span>
+                                    <i class="accordion__icon">
+                                        <img src="/img/PinClipart.svg" alt="">
+                                    </i>
+                                </button>
+                                <div class="accordion__content">
+                                </div>
+                            </li>
+                            <li class="accordion">
+                                <button class="accordion__control accordion__last-control">
+                                    <span class="accordion__title">Как отблагодарить автора?</span>
+                                    <i class="accordion__icon">
+                                        <img src="/img/PinClipart.svg" alt="">
+                                    </i>
+                                </button>
+                                <div class="accordion__content accordion__last-content">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ready-solutions">
+                <div class="container">
+                    <div class="ready-solutions__body">
+                        <h2 class="ready-solutions__title title">Готовые решения</h2>
+                    </div>
+                    <div class="ready-solutions__cards">
+                        <div class="ready-solutions__cards-row">
+                            <div class="ready-solutions__card">
+                                <h3 class="ready-solutions__card-title">Кредитные карты</h3>
+                                <a href="#!" class="ready-solutions__card-link">Кредитные карты без отказа</a>
+                                <a href="#!" class="ready-solutions__card-link">Лучшие кредитные карты</a>
+                                <a href="#!" class="ready-solutions__card-link">Для снятия наличных</a>
+                                <a href="#!" class="ready-solutions__card-link">С плохой кредитной историей</a>
+                                <a href="#!" class="ready-solutions__card-link">С доставкой на дом</a>
+                                <a href="#!" class="ready-solutions__card-link">Виртуальные кредитные карты</a>
+                                <a href="#!" class="ready-solutions__card-link">Кредитные карты в Москве</a>
+                                <a href="#!" class="ready-solutions__card-link">Кредитные карты онлайн</a>
+                            </div>
+                            <div class="ready-solutions__card">
+                                <h3 class="ready-solutions__card-title">Дебетовые карты</h3>
+                                <a href="#!" class="ready-solutions__card-link">Лучшие дебетовые карты</a>
+                                <a href="#!" class="ready-solutions__card-link">С бесплатным обслуживанием</a>
+                                <a href="#!" class="ready-solutions__card-link">Дебетовые карты с кэшбеком</a>
+                                <a href="#!" class="ready-solutions__card-link">Моментальные</a>
+                                <a href="#!" class="ready-solutions__card-link">С процентом на остаток</a>
+                                <a href="#!" class="ready-solutions__card-link">Виртуальные дебетовые карты</a>
+                                <a href="#!" class="ready-solutions__card-link">Виртуальные дебетовые карты</a>
+                                <a href="#!" class="ready-solutions__card-link">Дебетовые карты для детей</a>
+                            </div>
+                            <div class="ready-solutions__card">
+                                <h3 class="ready-solutions__card-title">Карты рассрочки</h3>
+                                <a href="#!" class="ready-solutions__card-link">Лучшие карты рассрочки</a>
+                                <a href="#!" class="ready-solutions__card-link">Карты рассрочки без отказа</a>
+                                <a href="#!" class="ready-solutions__card-link">Карты с рассрочкой 24 месяца</a>
+                                <a href="#!" class="ready-solutions__card-link">Карты с рассрочкой 12 месяцев</a>
+                                <a href="#!" class="ready-solutions__card-link">Со снятием наличных</a>
+                                <a href="#!" class="ready-solutions__card-link">Карты без процентов</a>
+                                <a href="#!" class="ready-solutions__card-link">Карты рассрочки с 18 лет</a>
+                                <a href="#!" class="ready-solutions__card-link">С доставкой на дом</a>
+                            </div>
+                            <div class="ready-solutions__card">
+                                <h3 class="ready-solutions__card-title">Кредиты наличными</h3>
+                                <a href="#!" class="ready-solutions__card-link">Кредит наличными на карту</a>
+                                <a href="#!" class="ready-solutions__card-link">Онлайн кредит наличными</a>
+                                <a href="#!" class="ready-solutions__card-link">С плохой кредитной историей</a>
+                                <a href="#!" class="ready-solutions__card-link">Кредит наличными без отказа</a>
+                                <a href="#!" class="ready-solutions__card-link">Кредит наличными без работы</a>
+                                <a href="#!" class="ready-solutions__card-link">Кредит наличными без справок</a>
+                                <a href="#!" class="ready-solutions__card-link">Кредит наличными по паспорту</a>
+                                <a href="#!" class="ready-solutions__card-link">Кредит под низкий процент</a>
+                            </div>
+                        </div>
+                        <div class="ready-solutions__cards-row">
+                            <div class="ready-solutions__card">
+                                <h3 class="ready-solutions__card-title">Автокредиты</h3>
+                                <a href="#!" class="ready-solutions__card-link">Лучшие автокредиты</a>
+                                <a href="#!" class="ready-solutions__card-link">Автокредит с плохой КИ</a>
+                                <a href="#!" class="ready-solutions__card-link">Автокредит без перв. взноса</a>
+                                <a href="#!" class="ready-solutions__card-link">Автокредит онлайн</a>
+                                <a href="#!" class="ready-solutions__card-link">Автокредит без справок</a>
+                                <a href="#!" class="ready-solutions__card-link">По двум документам</a>
+                                <a href="#!" class="ready-solutions__card-link">На подержаный авто</a>
+                                <a href="#!" class="ready-solutions__card-link">Автокредит под залог</a>
+                            </div>
+                            <div class="ready-solutions__card">
+                                <h3 class="ready-solutions__card-title">Рефинансирование</h3>
+                                <a href="#!" class="ready-solutions__card-link">Лучшие предложения</a>
+                                <a href="#!" class="ready-solutions__card-link">Под низкий процент</a>
+                                <a href="#!" class="ready-solutions__card-link">С плохой КИ</a>
+                                <a href="#!" class="ready-solutions__card-link">Без подтверждения дохода</a>
+                                <a href="#!" class="ready-solutions__card-link">С просрочкой</a>
+                                <a href="#!" class="ready-solutions__card-link">Рефинансирование для физлиц</a>
+                                <a href="#!" class="ready-solutions__card-link">Рефинансирование кредиток</a>
+                                <a href="#!" class="ready-solutions__card-link">Рефинансирование займов</a>
+                            </div>
+                            <div class="ready-solutions__card">
+                                <h3 class="ready-solutions__card-title">Займы</h3>
+                                <a href="#!" class="ready-solutions__card-link">Первый займ без процентов</a>
+                                <a href="#!" class="ready-solutions__card-link">Лучшие займы</a>
+                                <a href="#!" class="ready-solutions__card-link">Займы онлайн</a>
+                                <a href="#!" class="ready-solutions__card-link">Займы с плохой КИ на карту</a>
+                                <a href="#!" class="ready-solutions__card-link">Займы без отказа</a>
+                                <a href="#!" class="ready-solutions__card-link">Срочные займы</a>
+                                <a href="#!" class="ready-solutions__card-link">Займы по паспорту</a>
+                                <a href="#!" class="ready-solutions__card-link">Займы наличными</a>
+                            </div>
+                            <div class="ready-solutions__card">
+                                <h3 class="ready-solutions__card-title">Расчетные счета</h3>
+                                <a href="#!" class="ready-solutions__card-link">РКО для ИП</a>
+                                <a href="#!" class="ready-solutions__card-link">РКО онлайн</a>
+                                <a href="#!" class="ready-solutions__card-link">РКО для ООО</a>
+                                <a href="#!" class="ready-solutions__card-link">Бесплатное РКО</a>
+                                <a href="#!" class="ready-solutions__card-link">Лучшее РКО</a>
+                                <a href="#!" class="ready-solutions__card-link">РКО с быстрым открытием</a>
+                                <a href="#!" class="ready-solutions__card-link"></a>
+                                <a href="#!" class="ready-solutions__card-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__body">
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="" class="footer__link">О проекте</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Карта сайта</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Обратная связь</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Политика конфиденциальности</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Пользовательское соглашение</a>
+                        </li>
+                    </ul>
+                    <p class="footer__text">
+                        Информация о банках не является офертой, носит ознакомительный характер. Точные условия
+                        размещены на официальных сайтах
+                        банков. Вся информация на сайте, включая тексты и визуальные элементы являются интеллектуальной
+                        собственностью, их
+                        копирование и использование без письменного согласия запрещено.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/show-more.js"></script>
+    <script src="./js/accordion.js"></script>
+    <script src="./js/dropdown.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+.about-card__body {
+    text-align: left;
+    padding-top: 63px;
+}
+
+.about-card__title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 27px;
+    color: #252A34;
+}
+
+.about-card__title:not(:first-child) {
+    margin-top: 26px;
+}
+
+.about-card__item::before {
+    color: #476BF0;
+    content: "\2022";
+    font-size: 26px;
+    font-weight: 700;
+    left: -22px;
+    position: absolute;
+    top: 0;
+}
+
+.about-card__item {
+    position: relative;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #252A34;
+    margin-left: 23px;
+}
+
+.about-card__item:not(:first-child) {
+    margin-top: 26px;
+}
+
+.about-card__list {
+    padding-top: 21px;
+}
+
+
+.about-card__body p {
+    color: #252A34;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 15px;
+}
+
+.about-card__body span {
+    display: block;
+    color: #252A34;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 21px;
+}
+
+.specific-card__btns {
+    margin-top: 79px;
+}
+
+.about-card__btns {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    margin-top: 88px;
+}
+
+.about-card__btn {
+    display: flex;
+    align-items: center;
+    background: #476BF0;
+    border-radius: 15px;
+    transition: 0.1s ease;
+    padding: 20px 15px;
+    gap: 21px;
+}
+
+.about-card__btn span {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.about-card__btn:hover {
+    background: #305BFA;
+}
+
+.description__btns {
+    margin-top: 71px;
+}
+
+.description__title {
+    margin-top: 75px;
+}
+

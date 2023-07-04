@@ -1,4 +1,4 @@
-const tabsBtn = document.querySelectorAll(".specific-card__btn");
+const tabsBtn = document.querySelectorAll(".buttons__item");
 const tabsItems = document.querySelectorAll(".tabs__item");
 
 tabsBtn.forEach((i) => {
@@ -21,4 +21,4 @@ tabsBtn.forEach((i) => {
     })
 });
 
-document.querySelector('.specific-card__btn').click();
+document.querySelector('.buttons__item  ').click();

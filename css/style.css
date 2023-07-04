@@ -159,6 +159,11 @@ body {
     background: #E1E6FF;
 }
 
+.button__item:active {
+    background-color: #476BF0;
+    color: white;
+}
+
 .offers__cards-row {
     display: flex;
     justify-content: center;
@@ -172,6 +177,7 @@ body {
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.06), 0px 0px 24px rgba(0, 0, 0, 0.09);
     border-radius: 15px;
     transition: 0.3s ease;
+    margin-top: 33px;
 }
 
 .offers__card:hover {
@@ -629,5 +635,244 @@ th {
 
 .best-bank__btn:hover {
     color: white;
-    background:#476BF0;
+    background: #476BF0;
+}
+
+.offers__cards-row:nth-child(n + 3) {
+    display: none;
+}
+
+.offers__cards-row.is-visible {
+    display: flex;
+}
+
+.similar__cards {
+    display: flex;
+    gap: 17px;
+}
+
+.similar__name-bank {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    color: #252A34;
+}
+
+.similar__name-card {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 21px;
+    color: #252A34;
+    margin-top: 13px;
+}
+
+.similar__info-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    color: #838383;
+}
+
+.similar__info-nums {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    color: #476BF0;
+    margin-top: 5px;
+}
+
+.similar__info {
+    margin-top: 10px;
+}
+
+.similar__info-text:not(:first-child) {
+    margin-top: 5px;
+}
+
+.similar__title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 38px;
+    color: #252A34;
+    margin-top: 76px;
+}
+
+.similar__card img {
+    width: 210px;
+    height: 132px;
+    margin-top: 11px;
+}
+
+.similar__card {
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    max-width: 243px;
+    padding: 12px 16px;
+    margin-top: 74px;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+.similar__card:hover {
+    box-shadow: 0px 0px 28px rgba(71, 107, 240, 0.2);
+}
+
+.offers__container {
+    margin-top: 75px;
+}
+
+.offers__sub-title {
+    max-width: 640px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 39px;
+    color: #252A34;
+    margin-top: 27px;
+    max-width: 777px;
+    margin: 15px auto 0;
+}
+
+.offers__card {
+    text-align: left;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.09), 0px 0px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    padding: 27px 0 27px 19px;
+    width: 100%;
+}
+
+.offers__card:not(:first-child) {
+    margin-top: 33px;
+}
+
+.offers__cards {
+    margin-top: 49px;
+}
+
+.offers__card-title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 25px;
+    color: #252A34;
+}
+
+.offers__card-dignities {
+    border-left: 1px solid #476BF0;
+    margin-left: 15px;
+    height: 159px;
+    padding-left: 16px;
+}
+
+.offers__card-dignity:not(:first-child) {
+    margin-top: 26px;
+}
+
+.offers__card-dignity {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.offers__card-dignity p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 17px;
+    color: #476BF0;
+}
+
+.offers__bottom {
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+}
+
+.offers__card-info {
+    padding-left: 19px;
+}
+
+.offers__card-btns {
+    margin-top: 19px;
+}
+
+.offers__card-btn {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    background: transparent;
+    border: 1px solid #476BF0;
+    border-radius: 15px;
+    padding: 15px 27px;
+    color: #476BF0;
+    transition: 0.1s ease;
+}
+
+.offers__card-btn:hover {
+    background: #476BF0;
+    color: white;
+}
+
+.offers__card-btn:not(:last-child) {
+    margin-right: 25px;
+}
+
+.offers__card-footer {
+    display: flex;
+    gap: 18px;
+    margin-top: 23px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    color: #818181;
+}
+
+.offers__card-columns {
+    display: flex;
+    gap: 14px;
+}
+
+.offers__column-text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    color: #818181;
+    margin-top: 14px;
+
+}
+
+.offers__column-nums p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 13px;
+    color: #252A34;
+    margin-top: 14px;
+}
+
+.offers__card:nth-child(n + 6) {
+    display: none;
+}
+
+.show-more {
+    color: #476BF0;
+    font-size: 26px;
+    font-weight: 400;
+    background-color: transparent;
+    padding: 13px 54px;
+    border-radius: 15px;
+    border: 1px solid #476BF0;
+    margin-top: 33px;
+}
+
+.show-more:hover {
+    background: #476BF0;
+    color: white;
+}
+
+.offers__card.is-visible {
+    display: block;
+}
+
+.offers__title {
+    margin-top: 75px;
 }

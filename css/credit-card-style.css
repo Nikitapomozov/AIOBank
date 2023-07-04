@@ -1,90 +1,65 @@
-    .credit-card__title {
-        margin-top: 75px;
-    }
-
-    .credit-card__sub-title {
-        font-weight: 400;
-        font-size: 28px;
-        line-height: 39px;
-        color: #252A34;
-        margin-top: 15px;
-    }
-
-    .offers__title {
-        margin-top: 75px;
-    }
-
-    .offers__sub-title {
-        font-weight: 400;
-        font-size: 28px;
-        line-height: 39px;
-        color: #252A34;
-        margin-top: 15px;
-        max-width: 777px;
-        margin: 15px auto 0;
-    }
-
-    .credit-cards__card {
+    .offers__card {
         text-align: left;
         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.09), 0px 0px 16px rgba(0, 0, 0, 0.06);
         border-radius: 15px;
         padding: 27px 0 27px 19px;
+        width: 100%;
     }
 
-    .credit-cards__card:not(:first-child) {
+    .offers__card:not(:first-child) {
         margin-top: 33px;
     }
 
-    .credit-cards__cards {
+    .offers__cards {
         margin-top: 49px;
     }
 
-    .credit-cards__card-title {
+    .offers__card-title {
         font-weight: 600;
         font-size: 26px;
         line-height: 25px;
         color: #252A34;
     }
 
-    .credit-cards__card-dignities {
+    .offers__card-dignities {
         border-left: 1px solid #476BF0;
         margin-left: 15px;
         height: 159px;
         padding-left: 16px;
     }
 
-    .credit-cards__card-dignity:not(:first-child) {
+    .offers__card-dignity:not(:first-child) {
         margin-top: 26px;
     }
 
-    .credit-cards__card-dignity {
+    .offers__card-dignity {
         display: flex;
         align-items: center;
         gap: 16px;
     }
 
-    .credit-cards__card-dignity p {
+    .offers__card-dignity p {
         font-weight: 600;
         font-size: 18px;
         line-height: 17px;
         color: #476BF0;
     }
 
-    .credit-cards__bottom {
+    .offers__bottom {
         margin-top: 27px;
         display: flex;
         align-items: center;
     }
 
-    .credit-cards__card-info {
+    .offers__card-info {
         padding-left: 19px;
     }
 
-    .credit-cards__card-btns {
+    .offers__card-btns {
         margin-top: 19px;
     }
 
-    .credit-cards__card-btn {
+    .offers__card-btn {
         display: inline-block;
         font-weight: 400;
         font-size: 18px;
@@ -97,16 +72,16 @@
         transition: 0.1s ease;
     }
 
-    .credit-cards__card-btn:hover {
+    .offers__card-btn:hover {
         background: #476BF0;
         color: white;
     }
 
-    .credit-cards__card-btn:not(:last-child) {
+    .offers__card-btn:not(:last-child) {
         margin-right: 25px;
     }
 
-    .credit-cards__card-footer {
+    .offers__card-footer {
         display: flex;
         gap: 18px;
         margin-top: 23px;
@@ -116,12 +91,12 @@
         color: #818181;
     }
 
-    .credit-cards__card-columns {
+    .offers__card-columns {
         display: flex;
         gap: 14px;
     }
 
-    .credit-cards__column-text p {
+    .offers__column-text p {
         font-weight: 400;
         font-size: 14px;
         line-height: 13px;
@@ -130,10 +105,46 @@
 
     }
 
-    .credit-cards__column-nums p {
+    .offers__column-nums p {
         font-weight: 500;
         font-size: 14px;
         line-height: 13px;
         color: #252A34;
         margin-top: 14px;
+    }
+
+    .credit-card__container {
+        margin-top: 75px;
+    }
+
+    .credit-card__sub-title {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 27px;
+        color: #252A34;
+        margin-top: 15px;
+    }
+
+    .offers__card:nth-child(n + 6) {
+        display: none;
+    }
+
+    .show-more {
+        color: #476BF0;
+        font-size: 26px;
+        font-weight: 400;
+        background-color: transparent;
+        padding: 13px 54px;
+        border-radius: 15px;
+        border: 1px solid #476BF0;
+        margin-top: 33px;
+    }
+
+    .show-more:hover {
+        background: #476BF0;
+        color: white;
+    }
+
+    .offers__card.is-visible {
+        display: block;
     }

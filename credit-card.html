@@ -24,10 +24,10 @@
                             <a href="#!" class="header__link">кредитные карты</a>
                         </li>
                         <li class="header__item">
-                            <a href="#!" class="header__link">кредиты</a>
+                            <a href="./credits.html" class="header__link">кредиты</a>
                         </li>
                         <li class="header__item">
-                            <a href="#!" class="header__link">займы</a>
+                            <a href="./loans.html" class="header__link">займы</a>
                         </li>
                         <li class="header__item">
                             <a href="#!" class="header__link">рко</a>
@@ -39,7 +39,7 @@
         <main class="page">
 
             <section class="credit-card">
-                <div class="container">
+                <div class="container credit-card__container">
                     <h2 class="credit-card__title title">Кредитные карты</h2>
                     <p class="credit-card__sub-title">Подберите самую выгодную карту</p>
                     <div class="selection__dropdowns dropdowns">
@@ -48,42 +48,45 @@
                                 <button class="dropdown__control dropdown__control-border">
                                     <div class="dropdown__control-content">
                                         <p class="dropdown__text">Лимит</p>
-                                        <h3 class="dropdown__selected">1 500 000</h3>
+                                        <h3 class="dropdown__selected">Выбрать</h3>
                                     </div>
                                     <i class="dropdown__icon">
                                         <img src="/img/PinClipart 2.svg" alt="">
                                     </i>
                                 </button>
                                 <ul class="dropdown__menu-list">
-                                    <li class="dropdown__menu-item"></li>
+                                    <li class="dropdown__menu-item">1 000 000 ₽</li>
+                                    <li class="dropdown__menu-item">1 500 000 ₽</li>
+                                    <li class="dropdown__menu-item">2 000 000 ₽</li>
                                 </ul>
                             </li>
                             <li class="dropdown-item">
                                 <button class="dropdown__control">
                                     <div class="dropdown__control-content">
                                         <p class="dropdown__text">Какая цель</p>
-                                        <h3 class="dropdown__selected">Автомобиль</h3>
+                                        <h3 class="dropdown__selected">Выбрать</h3>
                                     </div>
                                     <i class="dropdown__icon">
                                         <img src="/img/PinClipart 2.svg" alt="">
                                     </i>
                                 </button>
                                 <ul class="dropdown__menu-list">
-                                    <li class="dropdown__menu-item"></li>
+                                    <li class="dropdown__menu-item">Автомобиль</li>
+                                    <li class="dropdown__menu-item">Квартира</li>
+                                    <li class="dropdown__menu-item">Дом</li>
                                 </ul>
                             </li>
                             <li class="dropdown-item">
                                 <button class="dropdown__control">
                                     <div class="dropdown__control-content">
                                         <p class="dropdown__text">Сортировать по</p>
-                                        <h3 class="dropdown__selected">Рейтинг</h3>
+                                        <h3 class="dropdown__selected">Выбрать</h3>
                                     </div>
                                     <i class="dropdown__icon">
                                         <img src="/img/PinClipart 2.svg" alt="">
                                     </i>
                                 </button>
                                 <ul class="dropdown__menu-list">
-
                                     <li class="dropdown__menu-item">Кред. лимит</li>
                                     <li class="dropdown__menu-item">Проц. ставка</li>
                                     <li class="dropdown__menu-item">Кэшбэк</li>
@@ -103,299 +106,580 @@
                     <p class="offers__sub-title">В среднем у банков 76 дней беспроцентного перерода и ставка 20% годовых
                     </p>
                     <div class="offers__btns buttons__list">
-                        <a href="#!" class="offers__btn buttons__item">Кредитные карты</a>
-                        <a href="#!" class="offers__btn buttons__item">Кредиты</a>
-                        <a href="#!" class="offers__btn buttons__item">Займы</a>
-                        <a href="#!" class="offers__btn buttons__item">Рко</a>
+                        <a href="#!" class="offers__btn buttons__item">Рейтинг</a>
+                        <a href="#!" class="offers__btn buttons__item">Лимит</a>
+                        <a href="#!" class="offers__btn buttons__item">Льготный период</a>
+                        <a href="#!" class="offers__btn buttons__item">Процентная ставка</a>
                     </div>
-                </div>
-            </section>
-
-            <section class="cards">
-                <div class="container">
-                    <div class="credit-cards__cards">
-                        <div class="credit-cards__card">
-                            <h2 class="credit-cards__card-title">Кредитная карта Тинькофф All Airlines Black Edition
+                    <div class="offers__cards">
+                        <div class="offers__card">
+                            <h2 class="offers__card-title">Кредитная карта Тинькофф All Airlines Black Edition
                             </h2>
-                            <div class="credit-cards__bottom">
+                            <div class="offers__bottom">
                                 <img src="./img/tinkoff-card.svg" alt="">
-                                <div class="credit-cards__card-info">
-                                    <div class="credit-cards__card-stars">
+                                <div class="offers__card-info">
+                                    <div class="offers__card-stars">
                                         <img src="./img/stars.svg" alt="">
                                     </div>
-                                    <div class="credit-cards__card-columns">
-                                        <div class="credit-cards__column-text">
+                                    <div class="offers__card-columns">
+                                        <div class="offers__column-text">
                                             <p>Кред. лимит</p>
                                             <p>Без процентов</p>
                                             <p>Кэшбэк</p>
                                         </div>
-                                        <div class="credit-cards__column-nums">
+                                        <div class="offers__column-nums">
                                             <p>2 000 000 ₽</p>
                                             <p>55 дней</p>
                                             <p>до 30%</p>
                                         </div>
-                                        <div class="credit-cards__column-text">
+                                        <div class="offers__column-text">
                                             <p>Проц. ставка</p>
                                             <p>Стоимость</p>
                                             <p>Решение</p>
                                         </div>
-                                        <div class="credit-cards__column-nums">
+                                        <div class="offers__column-nums">
                                             <p>от 12%</p>
                                             <p>от 0 ₽</p>
                                             <p>2 мин.</p>
                                         </div>
                                     </div>
-                                    <div class="credit-cards__card-btns">
-                                        <a href="#!" class="credit-cards__card-btn">Оформить</a>
-                                        <a href="./tinkoff-bank.html" class="credit-cards__card-btn">Подробнее</a>
+                                    <div class="offers__card-btns">
+                                        <a href="#!" class="offers__card-btn">Оформить</a>
+                                        <a href="./tinkoff-bank.html" class="offers__card-btn">Подробнее</a>
                                     </div>
-                                    <div class="credit-cards__card-footer">
+                                    <div class="offers__card-footer">
                                         <p>8 800 555-77-78</p>
                                         <p>tinkoff.ru</p>
                                         <p>Лицензия: №2673</p>
                                     </div>
                                 </div>
-                                <div class="credit-cards__card-dignities">
-                                    <div class="credit-cards__card-dignity">
-                                        <img src="./img/like.svg" alt="" class="credit-cards__card-dignity-img">
+                                <div class="offers__card-dignities">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/like.svg" alt="" class="offers__card-dignity-img">
                                         <p>Мы рекомендуем</p>
                                     </div>
-                                    <div class="credit-cards__card-dignity">
-                                        <img src="./img/hand.svg" alt="" class="credit-cards__card-dignity-img">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/hand.svg" alt="" class="offers__card-dignity-img">
                                         <p>Большой кэшбек</p>
                                     </div>
-                                    <div class="credit-cards__card-dignity">
-                                        <img src="./img/future.svg" alt="" class="credit-cards__card-dignity-img">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/future.svg" alt="" class="offers__card-dignity-img">
                                         <p>Быстрое решение</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="credit-cards__card">
-                            <h2 class="credit-cards__card-title">Кредитная карта Альфа-Банк 100 дней без % Platinum</h2>
-                            <div class="credit-cards__bottom">
+                        <div class="offers__card">
+                            <h2 class="offers__card-title">Кредитная карта Альфа-Банк 100 дней без % Platinum</h2>
+                            <div class="offers__bottom">
                                 <img src="./img/alfa-bank-card.svg" alt="">
-                                <div class="credit-cards__card-info">
-                                    <div class="credit-cards__card-stars">
+                                <div class="offers__card-info">
+                                    <div class="offers__card-stars">
                                         <img src="./img/stars.svg" alt="">
                                     </div>
-                                    <div class="credit-cards__card-columns">
-                                        <div class="credit-cards__column-text">
+                                    <div class="offers__card-columns">
+                                        <div class="offers__column-text">
                                             <p>Кред. лимит</p>
                                             <p>Без процентов</p>
                                             <p>Кэшбэк</p>
                                         </div>
-                                        <div class="credit-cards__column-nums">
+                                        <div class="offers__column-nums">
                                             <p>1 000 000 ₽</p>
                                             <p>до 100 дней</p>
                                             <p>нет</p>
                                         </div>
-                                        <div class="credit-cards__column-text">
+                                        <div class="offers__column-text">
                                             <p>Проц. ставка</p>
                                             <p>Стоимость</p>
                                             <p>Решение</p>
                                         </div>
-                                        <div class="credit-cards__column-nums">
+                                        <div class="offers__column-nums">
                                             <p>от 10%</p>
                                             <p>от 549 ₽</p>
                                             <p>2 мин.</p>
                                         </div>
                                     </div>
-                                    <div class="credit-cards__card-btns">
-                                        <a href="#!" class="credit-cards__card-btn">Оформить</a>
-                                        <a href="#!" class="credit-cards__card-btn">Подробнее</a>
+                                    <div class="offers__card-btns">
+                                        <a href="#!" class="offers__card-btn">Оформить</a>
+                                        <a href="#!" class="offers__card-btn">Подробнее</a>
                                     </div>
-                                    <div class="credit-cards__card-footer">
+                                    <div class="offers__card-footer">
                                         <p>8 800 2000 000</p>
                                         <p>alfabank.ru</p>
                                         <p>Лицензия: №1326</p>
                                     </div>
                                 </div>
-                                <div class="credit-cards__card-dignities">
-                                    <div class="credit-cards__card-dignity">
+                                <div class="offers__card-dignities">
+                                    <div class="offers__card-dignity">
                                         <img src="./img/user.svg" alt="" class="credit-cards__card-dignity-img">
                                         <p>Лучшие отзывы</p>
                                     </div>
-                                    <div class="credit-cards__card-dignity">
+                                    <div class="offers__card-dignity">
                                         <img src="./img/percentage.svg" alt="" class="credit-cards__card-dignity-img">
                                         <p>Низкая ставка </p>
                                     </div>
-                                    <div class="credit-cards__card-dignity">
+                                    <div class="offers__card-dignity">
                                         <img src="./img/future.svg" alt="" class="credit-cards__card-dignity-img">
                                         <p>Быстрое решение</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="credit-cards__card">
-                            <h2 class="credit-cards__card-title">Кредитная карта Альфа-Банк Аэрофлот</h2>
-                            <div class="credit-cards__bottom">
+                        <div class="offers__card">
+                            <h2 class="offers__card-title">Кредитная карта Альфа-Банк Аэрофлот</h2>
+                            <div class="offers__bottom">
                                 <img src="./img/alpha-airo.svg" alt="">
-                                <div class="credit-cards__card-info">
-                                    <div class="credit-cards__card-stars">
+                                <div class="offers__card-info">
+                                    <div class="offers__card-stars">
                                         <img src="./img/stars.svg" alt="">
                                     </div>
-                                    <div class="credit-cards__card-columns">
-                                        <div class="credit-cards__column-text">
+                                    <div class="offers__card-columns">
+                                        <div class="offers__column-text">
                                             <p>Кред. лимит</p>
                                             <p>Без процентов</p>
                                             <p>Кэшбэк</p>
                                         </div>
-                                        <div class="credit-cards__column-nums">
+                                        <div class="offers__column-nums">
                                             <p>2 000 000 ₽</p>
                                             <p>до 60 дней</p>
                                             <p>милями</p>
                                         </div>
-                                        <div class="credit-cards__column-text">
+                                        <div class="offers__column-text">
                                             <p>Проц. ставка</p>
                                             <p>Стоимость</p>
                                             <p>Решение</p>
                                         </div>
-                                        <div class="credit-cards__column-nums">
+                                        <div class="offers__column-nums">
                                             <p>от 24%</p>
                                             <p>от 990 ₽</p>
                                             <p>1 день</p>
                                         </div>
                                     </div>
-                                    <div class="credit-cards__card-btns">
-                                        <a href="#!" class="credit-cards__card-btn">Оформить</a>
-                                        <a href="#!" class="credit-cards__card-btn">Подробнее</a>
+                                    <div class="offers__card-btns">
+                                        <a href="#!" class="offers__card-btn">Оформить</a>
+                                        <a href="#!" class="offers__card-btn">Подробнее</a>
                                     </div>
-                                    <div class="credit-cards__card-footer">
+                                    <div class="offers__card-footer">
                                         <p>8 800 555-77-78</p>
                                         <p>alfabank.ru</p>
                                         <p>Лицензия: №1326</p>
                                     </div>
                                 </div>
-                                <div class="credit-cards__card-dignities">
-                                    <div class="credit-cards__card-dignity">
-                                        <img src="./img/dollar.svg" alt="" class="credit-cards__card-dignity-img">
+                                <div class="offers__card-dignities">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/dollar.svg" alt="" class="offers__card-dignity-img">
                                         <p>Высокий лимит</p>
                                     </div>
-                                    <div class="credit-cards__card-dignity">
-                                        <img src="./img/airplane.svg" alt="" class="credit-cards__card-dignity-img">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/airplane.svg" alt="" class="offers__card-dignity-img">
                                         <p>Кэшбэк милями</p>
                                     </div>
-                                    <div class="credit-cards__card-dignity">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/future.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Быстрое решение</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offers__card">
+                            <h2 class="offers__card-title">Кредитная карта Россельхозбанк Роснефть</h2>
+                            <div class="offers__bottom">
+                                <img src="./img/rosselh-card.svg" alt="">
+                                <div class="offers__card-info">
+                                    <div class="offers__card-stars">
+                                        <img src="./img/stars.svg" alt="">
+                                    </div>
+                                    <div class="offers__card-columns">
+                                        <div class="offers__column-text">
+                                            <p>Кред. лимит</p>
+                                            <p>Без процентов</p>
+                                            <p>Кэшбэк</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>1 000 000 ₽</p>
+                                            <p>до 55 дней</p>
+                                            <p>до 5%</p>
+                                        </div>
+                                        <div class="offers__column-text">
+                                            <p>Проц. ставка</p>
+                                            <p>Стоимость</p>
+                                            <p>Решение</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>от 21%</p>
+                                            <p>от 0 ₽</p>
+                                            <p>1 час</p>
+                                        </div>
+                                    </div>
+                                    <div class="offers__card-btns">
+                                        <a href="#!" class="offers__card-btn">Оформить</a>
+                                        <a href="#!" class="offers__card-btn">Подробнее</a>
+                                    </div>
+                                    <div class="offers__card-footer">
+                                        <p>8 800 1000 100</p>
+                                        <p>rshb.ru</p>
+                                        <p>Лицензия: №3349</p>
+                                    </div>
+                                </div>
+                                <div class="offers__card-dignities">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/like.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Мы рекомендуем</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/hand.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Большой кэшбэк</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/dollar.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Бесплатная</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offers__card">
+                            <h2 class="offers__card-title">Кредитная карта Мультикарта ВТБ</h2>
+                            <div class="offers__bottom">
+                                <img src="./img/vtb-card.svg" alt="">
+                                <div class="offers__card-info">
+                                    <div class="offers__card-stars">
+                                        <img src="./img/stars.svg" alt="">
+                                    </div>
+                                    <div class="offers__card-columns">
+                                        <div class="offers__column-text">
+                                            <p>Кред. лимит</p>
+                                            <p>Без процентов</p>
+                                            <p>Кэшбэк</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>1 000 000 ₽</p>
+                                            <p>до 101 дней</p>
+                                            <p>до 4%</p>
+                                        </div>
+                                        <div class="offers__column-text">
+                                            <p>Проц. ставка</p>
+                                            <p>Стоимость</p>
+                                            <p>Решение</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>от 16%</p>
+                                            <p>от 0 ₽</p>
+                                            <p>1 день</p>
+                                        </div>
+                                    </div>
+                                    <div class="offers__card-btns">
+                                        <a href="#!" class="offers__card-btn">Оформить</a>
+                                        <a href="#!" class="offers__card-btn">Подробнее</a>
+                                    </div>
+                                    <div class="offers__card-footer">
+                                        <p>8 800 100-24-24</p>
+                                        <p>vtb.ru</p>
+                                        <p>Лицензия: №1000</p>
+                                    </div>
+                                </div>
+                                <div class="offers__card-dignities">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/user.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Лучшие отзывы</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/percentage.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Низкая ставка</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/dollar.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Бесплатная</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offers__card">
+                            <h2 class="offers__card-title">Кредитная карта Тинькофф All Airlines Black Edition
+                            </h2>
+                            <div class="offers__bottom">
+                                <img src="./img/tinkoff-card.svg" alt="">
+                                <div class="offers__card-info">
+                                    <div class="offers__card-stars">
+                                        <img src="./img/stars.svg" alt="">
+                                    </div>
+                                    <div class="offers__card-columns">
+                                        <div class="offers__column-text">
+                                            <p>Кред. лимит</p>
+                                            <p>Без процентов</p>
+                                            <p>Кэшбэк</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>2 000 000 ₽</p>
+                                            <p>55 дней</p>
+                                            <p>до 30%</p>
+                                        </div>
+                                        <div class="offers__column-text">
+                                            <p>Проц. ставка</p>
+                                            <p>Стоимость</p>
+                                            <p>Решение</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>от 12%</p>
+                                            <p>от 0 ₽</p>
+                                            <p>2 мин.</p>
+                                        </div>
+                                    </div>
+                                    <div class="offers__card-btns">
+                                        <a href="#!" class="offers__card-btn">Оформить</a>
+                                        <a href="./tinkoff-bank.html" class="offers__card-btn">Подробнее</a>
+                                    </div>
+                                    <div class="offers__card-footer">
+                                        <p>8 800 555-77-78</p>
+                                        <p>tinkoff.ru</p>
+                                        <p>Лицензия: №2673</p>
+                                    </div>
+                                </div>
+                                <div class="offers__card-dignities">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/like.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Мы рекомендуем</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/hand.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Большой кэшбек</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/future.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Быстрое решение</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offers__card">
+                            <h2 class="offers__card-title">Кредитная карта Альфа-Банк 100 дней без % Platinum</h2>
+                            <div class="offers__bottom">
+                                <img src="./img/alfa-bank-card.svg" alt="">
+                                <div class="offers__card-info">
+                                    <div class="offers__card-stars">
+                                        <img src="./img/stars.svg" alt="">
+                                    </div>
+                                    <div class="offers__card-columns">
+                                        <div class="offers__column-text">
+                                            <p>Кред. лимит</p>
+                                            <p>Без процентов</p>
+                                            <p>Кэшбэк</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>1 000 000 ₽</p>
+                                            <p>до 100 дней</p>
+                                            <p>нет</p>
+                                        </div>
+                                        <div class="offers__column-text">
+                                            <p>Проц. ставка</p>
+                                            <p>Стоимость</p>
+                                            <p>Решение</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>от 10%</p>
+                                            <p>от 549 ₽</p>
+                                            <p>2 мин.</p>
+                                        </div>
+                                    </div>
+                                    <div class="offers__card-btns">
+                                        <a href="#!" class="offers__card-btn">Оформить</a>
+                                        <a href="#!" class="offers__card-btn">Подробнее</a>
+                                    </div>
+                                    <div class="offers__card-footer">
+                                        <p>8 800 2000 000</p>
+                                        <p>alfabank.ru</p>
+                                        <p>Лицензия: №1326</p>
+                                    </div>
+                                </div>
+                                <div class="offers__card-dignities">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/user.svg" alt="" class="credit-cards__card-dignity-img">
+                                        <p>Лучшие отзывы</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/percentage.svg" alt="" class="credit-cards__card-dignity-img">
+                                        <p>Низкая ставка </p>
+                                    </div>
+                                    <div class="offers__card-dignity">
                                         <img src="./img/future.svg" alt="" class="credit-cards__card-dignity-img">
                                         <p>Быстрое решение</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="credit-cards__card">
-                            <h2 class="credit-cards__card-title">Кредитная карта Россельхозбанк Роснефть</h2>
-                            <div class="credit-cards__bottom">
-                                <img src="./img/rosselh-card.svg" alt="">
-                                <div class="credit-cards__card-info">
-                                    <div class="credit-cards__card-stars">
+                        <div class="offers__card">
+                            <h2 class="offers__card-title">Кредитная карта Альфа-Банк Аэрофлот</h2>
+                            <div class="offers__bottom">
+                                <img src="./img/alpha-airo.svg" alt="">
+                                <div class="offers__card-info">
+                                    <div class="offers__card-stars">
                                         <img src="./img/stars.svg" alt="">
                                     </div>
-                                    <div class="credit-cards__card-columns">
-                                        <div class="credit-cards__column-text">
+                                    <div class="offers__card-columns">
+                                        <div class="offers__column-text">
                                             <p>Кред. лимит</p>
                                             <p>Без процентов</p>
                                             <p>Кэшбэк</p>
                                         </div>
-                                        <div class="credit-cards__column-nums">
-                                            <p>1 000 000 ₽</p>
-                                            <p>до 55 дней</p>
-                                            <p>до 5%</p>
+                                        <div class="offers__column-nums">
+                                            <p>2 000 000 ₽</p>
+                                            <p>до 60 дней</p>
+                                            <p>милями</p>
                                         </div>
-                                        <div class="credit-cards__column-text">
+                                        <div class="offers__column-text">
                                             <p>Проц. ставка</p>
                                             <p>Стоимость</p>
                                             <p>Решение</p>
                                         </div>
-                                        <div class="credit-cards__column-nums">
+                                        <div class="offers__column-nums">
+                                            <p>от 24%</p>
+                                            <p>от 990 ₽</p>
+                                            <p>1 день</p>
+                                        </div>
+                                    </div>
+                                    <div class="offers__card-btns">
+                                        <a href="#!" class="offers__card-btn">Оформить</a>
+                                        <a href="#!" class="offers__card-btn">Подробнее</a>
+                                    </div>
+                                    <div class="offers__card-footer">
+                                        <p>8 800 555-77-78</p>
+                                        <p>alfabank.ru</p>
+                                        <p>Лицензия: №1326</p>
+                                    </div>
+                                </div>
+                                <div class="offers__card-dignities">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/dollar.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Высокий лимит</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/airplane.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Кэшбэк милями</p>
+                                    </div>
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/future.svg" alt="" class="offers__card-dignity-img">
+                                        <p>Быстрое решение</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offers__card">
+                            <h2 class="offers__card-title">Кредитная карта Россельхозбанк Роснефть</h2>
+                            <div class="offers__bottom">
+                                <img src="./img/rosselh-card.svg" alt="">
+                                <div class="offers__card-info">
+                                    <div class="offers__card-stars">
+                                        <img src="./img/stars.svg" alt="">
+                                    </div>
+                                    <div class="offers__card-columns">
+                                        <div class="offers__column-text">
+                                            <p>Кред. лимит</p>
+                                            <p>Без процентов</p>
+                                            <p>Кэшбэк</p>
+                                        </div>
+                                        <div class="offers__column-nums">
+                                            <p>1 000 000 ₽</p>
+                                            <p>до 55 дней</p>
+                                            <p>до 5%</p>
+                                        </div>
+                                        <div class="offers__column-text">
+                                            <p>Проц. ставка</p>
+                                            <p>Стоимость</p>
+                                            <p>Решение</p>
+                                        </div>
+                                        <div class="offers__column-nums">
                                             <p>от 21%</p>
                                             <p>от 0 ₽</p>
                                             <p>1 час</p>
                                         </div>
                                     </div>
-                                    <div class="credit-cards__card-btns">
-                                        <a href="#!" class="credit-cards__card-btn">Оформить</a>
-                                        <a href="#!" class="credit-cards__card-btn">Подробнее</a>
+                                    <div class="offers__card-btns">
+                                        <a href="#!" class="offers__card-btn">Оформить</a>
+                                        <a href="#!" class="offers__card-btn">Подробнее</a>
                                     </div>
-                                    <div class="credit-cards__card-footer">
+                                    <div class="offers__card-footer">
                                         <p>8 800 1000 100</p>
                                         <p>rshb.ru</p>
                                         <p>Лицензия: №3349</p>
                                     </div>
                                 </div>
-                                <div class="credit-cards__card-dignities">
-                                    <div class="credit-cards__card-dignity">
-                                        <img src="./img/like.svg" alt="" class="credit-cards__card-dignity-img">
+                                <div class="offers__card-dignities">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/like.svg" alt="" class="offers__card-dignity-img">
                                         <p>Мы рекомендуем</p>
                                     </div>
-                                    <div class="credit-cards__card-dignity">
-                                        <img src="./img/hand.svg" alt="" class="credit-cards__card-dignity-img">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/hand.svg" alt="" class="offers__card-dignity-img">
                                         <p>Большой кэшбэк</p>
                                     </div>
-                                    <div class="credit-cards__card-dignity">
-                                        <img src="./img/dollar.svg" alt="" class="credit-cards__card-dignity-img">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/dollar.svg" alt="" class="offers__card-dignity-img">
                                         <p>Бесплатная</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="credit-cards__card">
-                            <h2 class="credit-cards__card-title">Кредитная карта Мультикарта ВТБ</h2>
-                            <div class="credit-cards__bottom">
+                        <div class="offers__card">
+                            <h2 class="offers__card-title">Кредитная карта Мультикарта ВТБ</h2>
+                            <div class="offers__bottom">
                                 <img src="./img/vtb-card.svg" alt="">
-                                <div class="credit-cards__card-info">
-                                    <div class="credit-cards__card-stars">
+                                <div class="offers__card-info">
+                                    <div class="offers__card-stars">
                                         <img src="./img/stars.svg" alt="">
                                     </div>
-                                    <div class="credit-cards__card-columns">
-                                        <div class="credit-cards__column-text">
+                                    <div class="offers__card-columns">
+                                        <div class="offers__column-text">
                                             <p>Кред. лимит</p>
                                             <p>Без процентов</p>
                                             <p>Кэшбэк</p>
                                         </div>
-                                        <div class="credit-cards__column-nums">
+                                        <div class="offers__column-nums">
                                             <p>1 000 000 ₽</p>
                                             <p>до 101 дней</p>
                                             <p>до 4%</p>
                                         </div>
-                                        <div class="credit-cards__column-text">
+                                        <div class="offers__column-text">
                                             <p>Проц. ставка</p>
                                             <p>Стоимость</p>
                                             <p>Решение</p>
                                         </div>
-                                        <div class="credit-cards__column-nums">
+                                        <div class="offers__column-nums">
                                             <p>от 16%</p>
                                             <p>от 0 ₽</p>
                                             <p>1 день</p>
                                         </div>
                                     </div>
-                                    <div class="credit-cards__card-btns">
-                                        <a href="#!" class="credit-cards__card-btn">Оформить</a>
-                                        <a href="#!" class="credit-cards__card-btn">Подробнее</a>
+                                    <div class="offers__card-btns">
+                                        <a href="#!" class="offers__card-btn">Оформить</a>
+                                        <a href="#!" class="offers__card-btn">Подробнее</a>
                                     </div>
-                                    <div class="credit-cards__card-footer">
+                                    <div class="offers__card-footer">
                                         <p>8 800 100-24-24</p>
                                         <p>vtb.ru</p>
                                         <p>Лицензия: №1000</p>
                                     </div>
                                 </div>
-                                <div class="credit-cards__card-dignities">
-                                    <div class="credit-cards__card-dignity">
-                                        <img src="./img/user.svg" alt="" class="credit-cards__card-dignity-img">
+                                <div class="offers__card-dignities">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/user.svg" alt="" class="offers__card-dignity-img">
                                         <p>Лучшие отзывы</p>
                                     </div>
-                                    <div class="credit-cards__card-dignity">
-                                        <img src="./img/percentage.svg" alt="" class="credit-cards__card-dignity-img">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/percentage.svg" alt="" class="offers__card-dignity-img">
                                         <p>Низкая ставка</p>
                                     </div>
-                                    <div class="credit-cards__card-dignity">
-                                        <img src="./img/dollar.svg" alt="" class="credit-cards__card-dignity-img">
+                                    <div class="offers__card-dignity">
+                                        <img src="./img/dollar.svg" alt="" class="offers__card-dignity-img">
                                         <p>Бесплатная</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="btn-center">
+                            <button class="show-more">Показать еще</button>
+                        </div>
                     </div>
+                </div>
+
             </section>
 
             <section class="info">
@@ -460,7 +744,7 @@
                     </div>
                 </div>
             </section>
-            
+
             <section class="ready-solutions">
                 <div class="container">
                     <div class="ready-solutions__body">
@@ -595,6 +879,7 @@
             </div>
         </footer>
     </div>
+    <script src="./js/show-more.js"></script>
     <script src="./js/dropdown.js"></script>
     <script src="./js/accordion.js"></script>
 </body>
